@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,800&display=swap');
+.clear {
+	clear: both;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  
+}
+
+#hero {
+  background: url(img/banner.jpg) no-repeat center / cover;
+  height: 90vh;
+  width: auto;
+}
+#hero .content {
+  padding: 90px 0;
+}
+#hero .content h1 {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 3.8rem;
+  color: #fff;
+}
+#hero .content p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+
+.nav-item {
+  padding: 0 25px;
+}
+
+.nav-item .nav-link {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #d8d8dc !important;
+  transition: all linear 0.2s;
+}
+
+.nav-item .nav-link:hover {
+  color: #e84545 !important;
+  transition: all linear 0.2s;
+}
+
+
+#feature {
+  padding: 120px 0;
+}
+#feature h3 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2d3033;
+}
+#feature p {
+  font-size: 14px;
+  color: #6c7279;
+}
+
+#work .img {
+  position: relative;
+}
+#work .img:hover .img-overlay {
+  visibility: visible;
+  transition: all linear 0.4s;
+}
+#work .img .img-overlay {
+  background: #d54040ea;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  visibility: hidden;
+}
+
+
+
+#team {
+  padding: 100px 0;
+}
+#team h3 {
+  color: #2d3033;
+  font-size: 22px;
+  margin-top: 30px;
+}
+#team h4 {
+  color: #e84545;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+#team p {
+  font-size: 14px;
+  color: #6c7279;
+}
+
+#team .s-icon a {
+  width: 40px;
+  height: 40px;
+  border-radius: 4%;
+  text-decoration: none;
+  color: #d8d8dc;
+  border: 2px solid #d8d8dc;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+#team .s-icon a:hover {
+  border: 2px solid #2d3033;
+  color: #2d3033;
+}
+
+
+#test {
+  background: #53354a;
+}
+.quote {
+  margin-left: 85px;
+}
+.quote h3 {
+  color: #f4f2f3;
+  font-size: 36px;
+  font-family: "Cardo", serif;
+  font-style: italic;
+}
+.quote p {
+  margin-top: 36px;
+  color: #f4f2f3;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+
+
+#download {
+  padding: 100px 0;
+}
+#download p {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+}
+#download a {
+  font-size: 13px !important;
+  color: #d8d8dc;
+}
+
+
+#main-footer {
+  background: #3a3e64;
+  padding: 30px 0;
+}
+#main-footer p {
+  font-size: 1wpx;
+  color: #f4f2f3;
+}
+#main-footer .s-icon a {
+  width: 30px;
+  height: 30px;
+  border-radius: 4%;
+  text-decoration: none;
+  color: #d8d8dc;
+  border: 2px solid #d8d8dc;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+#main-footer .s-icon a:hover {
+  border: 2px solid #e84545;
+  color: #e84545;
+}
+.fh-text {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  color: #f4f2f3;
+}
+
+.footer-bottom {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #313454;
+}
+.footer-bottom {
+  font-size: 14px;
+  color: #808080;
+}
+
+
+@media (max-width: 1200px) {
+  #hero {
+    height: 80vh;
+  }
+  #hero .content h1 {
+    font-size: 2.5rem;
+  }
+  #hero .content p {
+    font-size: 1.5rem;
+  }
+  .quote h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    height: 80vh;
+  }
+  #hero .content h1 {
+    font-size: 2rem;
+  }
+  #hero .content p {
+    font-size: 0.9rem;
+  }
+  .quote h3 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .quote p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  #hero {
+    height: 80vh;
+  }
+  #hero .content h1 {
+    font-size: 1.6rem;
+  }
+  #hero .content p {
+    font-size: 1rem;
+  }
+  .quote h3 {
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
+  .quote p {
+    margin-top: 10px;
+    font-size: 8px;
+  }
+  #team {
+    text-align: center;
+  }
+  .s-icon {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 480px) {
+  #hero .content h1 {
+    font-size: 1.2rem;
+  }
+}
